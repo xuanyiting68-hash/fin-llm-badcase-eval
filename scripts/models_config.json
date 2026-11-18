@@ -1,0 +1,47 @@
+{
+  "_note": "各模型的接口配置。key_env 是 .env 里的变量名；base_url_env 可选，用来覆盖默认 base_url。extra_body 原样透传给接口。min_interval_sec 是两次请求之间的最小间隔，用来避免限流。",
+  "deepseek": {
+    "display_name": "DeepSeek",
+    "model": "deepseek-v4-pro",
+    "base_url": "https://api.deepseek.com",
+    "base_url_env": "DEEPSEEK_BASE_URL",
+    "key_env": "DEEPSEEK_API_KEY",
+    "thinking": "enabled（默认强度 high）",
+    "params": {},
+    "extra_body": {"thinking": {"type": "enabled"}},
+    "min_interval_sec": 1
+  },
+  "doubao": {
+    "display_name": "豆包",
+    "model": "doubao-seed-evolving",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "base_url_env": "ARK_BASE_URL",
+    "key_env": "ARK_API_KEY",
+    "thinking": "enabled",
+    "params": {},
+    "extra_body": {"thinking": {"type": "enabled"}},
+    "min_interval_sec": 1
+  },
+  "qwen": {
+    "display_name": "千问",
+    "model": "qwen3.7-max",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "base_url_env": "DASHSCOPE_BASE_URL",
+    "key_env": "DASHSCOPE_API_KEY",
+    "thinking": "enabled",
+    "params": {},
+    "extra_body": {"enable_thinking": true},
+    "min_interval_sec": 1
+  },
+  "kimi": {
+    "display_name": "Kimi",
+    "model": "kimi-k3",
+    "base_url": "https://api.moonshot.cn/v1",
+    "base_url_env": "MOONSHOT_BASE_URL",
+    "key_env": "MOONSHOT_API_KEY",
+    "thinking": "仅思考模式（不可关闭，强度 max）",
+    "params": {},
+    "extra_body": {},
+    "min_interval_sec": 21
+  }
+}
