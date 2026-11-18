@@ -1,0 +1,25 @@
+{
+  "usage": {
+    "completion_tokens": 307,
+    "prompt_tokens": 68,
+    "total_tokens": 375,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 173,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    }
+  },
+  "returned_model": "doubao-seed-evolving-latest-version",
+  "finish_reason": "stop",
+  "latency_sec": 9.4,
+  "question_id": "E01",
+  "model_key": "doubao",
+  "model_requested": "doubao-seed-evolving",
+  "collected_at": "2026-11-18T18:03:36+08:00",
+  "reasoning_chars": 81
+}

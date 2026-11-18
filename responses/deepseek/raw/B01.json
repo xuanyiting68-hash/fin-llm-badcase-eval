@@ -1,0 +1,27 @@
+{
+  "usage": {
+    "completion_tokens": 1927,
+    "prompt_tokens": 101,
+    "total_tokens": 2028,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1128,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 101
+  },
+  "returned_model": "deepseek-v4-pro",
+  "finish_reason": "stop",
+  "latency_sec": 49.4,
+  "question_id": "B01",
+  "model_key": "deepseek",
+  "model_requested": "deepseek-v4-pro",
+  "collected_at": "2026-11-18T17:13:51+08:00",
+  "reasoning_chars": 1865
+}

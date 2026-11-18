@@ -1,0 +1,25 @@
+{
+  "usage": {
+    "completion_tokens": 2774,
+    "prompt_tokens": 177,
+    "total_tokens": 2951,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1495,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    }
+  },
+  "returned_model": "qwen3.7-max",
+  "finish_reason": "stop",
+  "latency_sec": 28.6,
+  "question_id": "D02",
+  "model_key": "qwen",
+  "model_requested": "qwen3.7-max",
+  "collected_at": "2026-11-18T18:23:17+08:00",
+  "reasoning_chars": 3465
+}

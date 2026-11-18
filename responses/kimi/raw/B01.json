@@ -1,0 +1,26 @@
+{
+  "usage": {
+    "completion_tokens": 3086,
+    "prompt_tokens": 101,
+    "total_tokens": 3187,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 2351,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": null,
+      "cache_write_tokens": 0
+    }
+  },
+  "returned_model": "kimi-k3",
+  "finish_reason": "stop",
+  "latency_sec": 67.1,
+  "question_id": "B01",
+  "model_key": "kimi",
+  "model_requested": "kimi-k3",
+  "collected_at": "2026-11-18T18:33:00+08:00",
+  "reasoning_chars": 8336
+}
