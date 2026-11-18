@@ -1,7 +1,8 @@
 # 运行采集（Windows PowerShell）
 
 ```powershell
-# 1. 进入仓库目录，安装依赖（只需一次）
+# 1. 克隆仓库并安装依赖（只需一次）
+git clone https://github.com/xuanyiting68-hash/fin-llm-badcase-eval.git
 cd fin-llm-badcase-eval
 pip install -r requirements.txt
 
