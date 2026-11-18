@@ -1,0 +1,5 @@
+﻿collected_at,model_key,question_id,status,model_returned,finish_reason,latency_sec,prompt_tokens,completion_tokens,error
+2026-11-18T17:02:11+08:00,deepseek,A01,ok,deepseek-v4-pro,stop,14.8,151,628,
+2026-11-18T17:02:26+08:00,doubao,A01,ok,doubao-seed-evolving-latest-version,stop,37.5,112,1528,
+2026-11-18T17:03:04+08:00,qwen,A01,ok,qwen3.7-max,stop,13.9,76,1017,
+2026-11-18T17:03:18+08:00,kimi,A01,ok,kimi-k3,stop,21.6,147,756,
